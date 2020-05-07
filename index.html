@@ -60,7 +60,19 @@
   </div>
   <div class="container">
     <div class="jumbotron">
-      
+    <div>
+      <form id="form-control"> 
+        <p id="Display"></p>
+        <label>Enter your Name</label>
+          <input type="text" class="form-control" id="Name" aria-placeholder="your name" required>
+        <label>Your year of birth</label>
+          <input type="number" class="form-control" id="Year" aria-placeholder="year of birth" required>
+        <label>Month of birth</label>
+          <input type="number" class="form-control" id="Month" aria-placeholder="month" required min="1" max="12">
+        <label>Day of Birth</label>
+          <input type="number" class="form-control" id="Day" aria-placeholder="day" required min="1" max="31">
+      </form>
+    </div>     
     </div>
   </div>
 </body>
