@@ -8,4 +8,14 @@ var submitit = function () {
   var femaleNames = [
     "Akosua"," Adwoa","Abenaa","Akua","Yaa","Afua","Ama"
   ];
-}
+  var month = document.getElementById("Month").value
+  var name = document.getElementById("Name").value
+  var year = document.getElementById("Year").value
+  var day = document.getElementById("Day").value
+  
+  var dateOfBirth = new Date(year + "/" + month + "/" + day);
+  var find = dateOfBirth.getDay();
+  var Display = document.getElementById("Display");
+  var male = document.getElementById("Male");
+  var female = document.getElementById("Female");
+};
