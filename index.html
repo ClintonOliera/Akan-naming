@@ -64,13 +64,20 @@
       <form id="form-control"> 
         <p id="Display"></p>
         <label>Enter your Name</label>
-          <input type="text" class="form-control" id="Name" aria-placeholder="your name" required>
-        <label>Your year of birth</label>
-          <input type="number" class="form-control" id="Year" aria-placeholder="year of birth" required>
+          <input type="text" class="form-control" id="Name" aria-placeholder="your name" required><br>
+        <label>Your year of birth</label><br>
+          <input type="number" class="form-control" id="Year" aria-placeholder="year of birth" required><br>
         <label>Month of birth</label>
-          <input type="number" class="form-control" id="Month" aria-placeholder="month" required min="1" max="12">
-        <label>Day of Birth</label>
-          <input type="number" class="form-control" id="Day" aria-placeholder="day" required min="1" max="31">
+          <input type="number" class="form-control" id="Month" aria-placeholder="month" required min="1" max="12"><br>
+        <label>Day of Birth</label><br>
+          <input type="number" class="form-control" id="Day" aria-placeholder="day" required min="1" max="31"><br>
+         <div class="select">
+           <label>GENDER</label><br>
+           <input type="radio" name="gender" id="Male" value="male" checked> Male
+           <input type="radio" name="gender" id="Female" value="female"> Female
+         </div>
+         <a onclick="submitit()" class="btn btn-outline-info btn-lg">SUBMIT</a><br>
+         <button type="reset" class="btn btn-outline-info btn-lg">RESET</button><br>
       </form>
     </div>     
     </div>
