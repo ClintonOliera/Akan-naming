@@ -41,7 +41,7 @@ var submitit = function () {
     Display.innerHTML = "Hey ! " + name + " you were born on " +daysOfTheWeek[find] + " your akan name is " +maleNames[find];
   };
   if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-    Display.style.background = "yellow"
+    Display.style.background = "blue"
     Display.style.color = "white"
     Display.innerHTML = "Hey! " + name + " you were born on " +daysOfTheWeek[find] + " your akan name is " + femaleNames[find];
   }
