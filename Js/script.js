@@ -38,11 +38,13 @@ var submitit = function () {
   if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
     Display.style.background = "green"
     Display.style.color = "white"
+    Display.style.fontSize = "50px"
     Display.innerHTML = "Hey ! " + name + " you were born on " +daysOfTheWeek[find] + " your akan name is " +maleNames[find];
   };
   if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
     Display.style.background = "blue"
     Display.style.color = "white"
+    Display.style.fontSize = "50px"
     Display.innerHTML = "Hey! " + name + " you were born on " +daysOfTheWeek[find] + " your akan name is " + femaleNames[find];
   }
 };
