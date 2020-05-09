@@ -23,14 +23,15 @@ var submitit = function () {
     alert("fill all the required inputs !");
   }
 
+  if (month < 0 > 31) {
+    alert("Hey! " + name + " please enter a valid month");
+    }
+
     else if (year < 0) {
     alert( "Hey! " + name  + " please enter a valid year");
   };
 
-  if ((month < 0 && month > 12)) {
-  alert("Hey! " + name + " please enter a valid month");
-  }
-   else if((day < 1) || (day > 31)) {
+   if((day < 1) || (day > 31)) {
     alert("Hey! " + name + " enter a valid day between 1 to 31");
   }
 
