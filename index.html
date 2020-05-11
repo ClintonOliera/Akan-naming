@@ -53,6 +53,7 @@
                 <div class="footer bg-info">
                    <p>The naming order is from sunday to saturday</p>
                 </div>
+                <p id="Display"></p>
                </div>
              </div>
            </div>
@@ -60,17 +61,15 @@
     </div>
   </div>
   <div class="container">
-    <div class="jumbotron">
-    <div>
-      <form id="form-control"> 
-        <p id="Display"></p>
-        <label>Enter your Name</label>
+    <div class="form">
+      <form id="form-control">
+        <label class="show">Enter your Name</label>
           <input type="text" class="form-control" id="Name" aria-placeholder="your name" required><br>
-        <label>Your year of birth</label><br>
+        <label class="show">Your year of birth</label><br>
           <input type="number" class="form-control" id="Year" aria-placeholder="year of birth" required><br>
-        <label>Month of birth</label>
+        <label class="show">Month of birth</label>
           <input type="number" class="form-control" id="Month" aria-placeholder="month" required min="1" max="12"><br>
-        <label>Day of Birth</label><br>
+        <label class="show">Day of Birth</label><br>
           <input type="number" class="form-control" id="Day" aria-placeholder="day" required min="1" max="31"><br>
          <div class="select">
            <label>GENDER</label><br>
@@ -82,8 +81,7 @@
       </form>
       <div>
         <script src="Js/script.js"></script>
-      </div>
-    </div>     
+      </div>     
     </div>
   </div>
 </body>
