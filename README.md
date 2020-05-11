@@ -23,10 +23,9 @@ Akan names are derived from Ghanian culture, where by the Ghanian people used to
    * Javascript
 
   ## How it works :
-     | Behavior| input | output |
-    | -------- | -------- | -------- |
-    | user inputs century, year, month, date and gender then hits send   | once the information is input the application calculates    | once calculated the app outputs the Akan name of the respective user |
-
+      | Behavior| input | output |
+| -------- | -------- | -------- |
+| user inputs century, year, month, date and gender then hits send   | once the information is input the application calculates    | once calculated the app outputs the Akan name of the respective user     |
   ## Contact Information :
    * Reach me at clintonoliera391@gmail.com
 
